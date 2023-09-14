@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
 
       - name: Install Ruby
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf
+        uses: ruby/setup-ruby@5311f05890856149502132d25c4a24985a00d426
         with:
           ruby-version: 3.1.4 # 3.2 fails, see https://github.com/github/pages-gem/issues/879
           bundler-cache: true
